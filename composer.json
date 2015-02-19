@@ -1,0 +1,20 @@
+{
+    "name": "josh/test-driven-development",
+    "description": "Demonstration of TDD",
+    "require": {
+        "phpspec/phpspec": "~2.1",
+        "phpspec/nyan-formatters": "1.*"
+    },
+    "authors": [
+        {
+            "name": "Josh Freeman",
+            "email": "jdfreeman11@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Spec\\": "spec/spec",
+            "TDD\\": "src/TDD"
+        }
+    }
+}
